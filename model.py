@@ -77,7 +77,7 @@ class GrassModel:
                     has_harvested = True
                 else:
                     continue
-        return True if has_harvested else False
+        return has_harvested
 
     
 

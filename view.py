@@ -9,7 +9,7 @@ class GrassView:
     
     def print_grid(self, grid: list[list[None | Crop]]):
         for row in grid:
-            print("".join(["." if cell is None else cell.__str__() for cell in row]))
+            print(" ".join(["." if cell is None else cell.__str__() for cell in row]))
         print()
 
     def choose_action(self) -> Mechanics:
